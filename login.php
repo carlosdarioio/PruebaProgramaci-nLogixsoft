@@ -34,5 +34,8 @@ if (isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] === TRUE)
 			</div>
 		</div>
 	</form>
+	<small>
+	Desarrollado por <a href="https://github.com/carlosdarioio/PruebaProgramaci-nLogixsoft">Carlos Dario Flores</a>
+	</small>
 </div>
 <?php include BASE_PATH.'/includes/footer.php'; ?>

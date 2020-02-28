@@ -7,7 +7,7 @@
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
         <meta name="description" content="Test">
         <meta name="author" content="Carlos Dario Flores">
-        <title>Administrator</title>
+        <title>appletenhtml.blogspot.com</title>
         <!-- Bootstrap Core CSS -->
         <link  rel="stylesheet" href="assets/css/bootstrap.min.css"/>
         <!-- MetisMenu CSS -->
@@ -22,10 +22,12 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.min.js" type="text/javascript"></script>		
+		<link href='https://appletenhtml.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
     </head>
     <body>
         <div id="wrapper">
+		
             <!-- Navigation -->
             <?php if (isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] == true): ?>
                 <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
@@ -59,6 +61,7 @@
                             <ul class="nav" id="side-menu">								
                                <li><a href="MapaConCLientes.php"><i class="fa fa-user fa-fw"></i>Pagina 2</a></li>
 							   <li><a href="TablaConNombres.php"><i class="fa fa-sign-out fa-fw"></i>Pagina 3</a></li>	<li><a href="MapaDeCalor.php"><i class="fa fa-dashboard fa-fw"></i>Pagina 4</a></li>
+							   
                                 
                                 
                             </ul>
