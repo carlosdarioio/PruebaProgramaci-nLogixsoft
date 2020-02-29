@@ -22,8 +22,7 @@ require_once BASE_PATH . '/includes/auth_validate.php';
 	  {location: new google.maps.LatLng(13.696674, -89.197927), weight: 3},
 	  {location: new google.maps.LatLng(14.692511, -87.86136), weight: 3},
 	  {location: new google.maps.LatLng(12.022747, -86.252007), weight: 3},
-	  {location: new google.maps.LatLng(8.103289, -80.596013), weight: 3}  
-  
+	  {location: new google.maps.LatLng(8.103289, -80.596013), weight: 3}    
 	];
 var xcenter = new google.maps.LatLng(13.705043, -89.2023);
 map = new google.maps.Map(document.getElementById('map'), {

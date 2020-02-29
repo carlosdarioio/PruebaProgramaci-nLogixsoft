@@ -2,7 +2,7 @@
 session_start();
 require_once 'config/config.php';
 $token = bin2hex(openssl_random_pseudo_bytes(16));
-if (isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] === TRUE)
+if (isset($_SESSION['_usuario']) && $_SESSION['_usuario'] === TRUE)
 {
 	header('Location: index.php');
 }
@@ -21,12 +21,12 @@ if (isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] === TRUE)
 					<label class="control-label">Contraseña</label>
 					<input type="password" name="password" class="form-control" required="required">
 				</div>				
-				<?php if (isset($_SESSION['login_failure'])): ?>
+				<?php if (isset($_SESSION['error_login'])): ?>
 				<div class="alert alert-danger alert-dismissable fade in">
 					<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 					<?php
-					echo $_SESSION['login_failure'];
-					unset($_SESSION['login_failure']);
+					echo $_SESSION['error_login'];
+					unset($_SESSION['error_login']);
 					?>
 				</div>
 				<?php endif; ?>

@@ -118,7 +118,7 @@ body {
 }
 
 .login-panel {
-  margin-top: 25%;
+  margin-top: 10%;
 }
 
 .btn-circle {
@@ -205,3 +205,25 @@ body {
 label.error{
   color: red;
 }
+#Salir2
+   {
+	   display: none;
+   }
+@media (min-width: 321px) and (max-width: 767px)
+ {	 
+	.login-panel
+   {
+     margin-top: 3%; 
+   } 
+   #Salir
+   {
+	   display: none;
+   }
+   #Salir2
+   {
+	   display: block;
+   }
+ }
+  
+
+
