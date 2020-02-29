@@ -17,7 +17,8 @@
  <img src="https://github.com/carlosdarioio/PruebaProgramaci-nLogixsoft/blob/master/Pagina4.png"> 
  
  # Visualizar 
- <a href="http://ec2-54-87-219-107.compute-1.amazonaws.com/login.php">http://ec2-54-87-219-107.compute-1.amazonaws.com/login.php</a> 
  Usuario: 	 prueba
  Contraseña: 12345
+ <a href="http://ec2-54-87-219-107.compute-1.amazonaws.com/login.php">http://ec2-54-87-219-107.compute-1.amazonaws.com/login.php</a> 
+ 
 
